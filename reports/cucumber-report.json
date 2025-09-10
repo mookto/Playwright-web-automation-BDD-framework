@@ -1,0 +1,359 @@
+[
+  {
+    "description": "In order to use the application\nAs a valid user\nI want to check some functionality of ecom website",
+    "elements": [
+      {
+        "description": "",
+        "id": "ecom-functionality-checked;successful-login-with-valid-credentials-and-checked-others-functionality",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Successful login with valid credentials and checked others functionality",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1455165199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the ecom login  page",
+            "match": {
+              "location": "file:\\G:\\Playwright-BDD-HRMS\\features\\steps\\ECOM.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1542199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I log in with valid e com user credentials",
+            "match": {
+              "location": "file:\\G:\\Playwright-BDD-HRMS\\features\\steps\\ECOM.steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8555296499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see the homepage",
+            "match": {
+              "location": "file:\\G:\\Playwright-BDD-HRMS\\features\\steps\\ECOM.steps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 515000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Check search functionality working",
+            "match": {
+              "location": "file:\\G:\\Playwright-BDD-HRMS\\features\\steps\\ECOM.steps.js:31"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 30016735699,
+              "error_message": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//button[contains(text(),\\'Search\\')]')\u001b[22m\n\u001b[2m    - locator resolved to <button _ngcontent-serverapp-c3=\"\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"singin-page\" _ngcontent-serverapp-c14=\"\">…</div> from <div _ngcontent-serverapp-c15=\"\" class=\"signin-page-area open-singin-page\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"singin-page\" _ngcontent-serverapp-c14=\"\">…</div> from <div _ngcontent-serverapp-c15=\"\" class=\"signin-page-area open-singin-page\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is not stable\u001b[22m\n\u001b[2m  7 × retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"singin-page\" _ngcontent-serverapp-c14=\"\">…</div> from <div _ngcontent-serverapp-c15=\"\" class=\"signin-page-area open-singin-page\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  2 × retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not stable\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"singin-page\" _ngcontent-serverapp-c14=\"\">…</div> from <div _ngcontent-serverapp-c15=\"\" class=\"signin-page-area open-singin-page\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"singin-page\" _ngcontent-serverapp-c14=\"\">…</div> from <div _ngcontent-serverapp-c15=\"\" class=\"signin-page-area open-singin-page\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"singin-page\" _ngcontent-serverapp-c14=\"\">…</div> from <div _ngcontent-serverapp-c15=\"\" class=\"signin-page-area open-singin-page\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  8 × retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"singin-page\" _ngcontent-serverapp-c14=\"\">…</div> from <div _ngcontent-serverapp-c15=\"\" class=\"signin-page-area open-singin-page\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  2 × retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not stable\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"singin-page\" _ngcontent-serverapp-c14=\"\">…</div> from <div _ngcontent-serverapp-c15=\"\" class=\"signin-page-area open-singin-page\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"singin-page\" _ngcontent-serverapp-c14=\"\">…</div> from <div _ngcontent-serverapp-c15=\"\" class=\"signin-page-area open-singin-page\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"singin-page\" _ngcontent-serverapp-c14=\"\">…</div> from <div _ngcontent-serverapp-c15=\"\" class=\"signin-page-area open-singin-page\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"singin-page\" _ngcontent-serverapp-c14=\"\">…</div> from <div _ngcontent-serverapp-c15=\"\" class=\"signin-page-area open-singin-page\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"singin-page\" _ngcontent-serverapp-c14=\"\">…</div> from <div _ngcontent-serverapp-c15=\"\" class=\"signin-page-area open-singin-page\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"singin-page\" _ngcontent-serverapp-c14=\"\">…</div> from <div _ngcontent-serverapp-c15=\"\" class=\"signin-page-area open-singin-page\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"singin-page\" _ngcontent-serverapp-c14=\"\">…</div> from <div _ngcontent-serverapp-c15=\"\" class=\"signin-page-area open-singin-page\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  8 × retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"singin-page\" _ngcontent-serverapp-c14=\"\">…</div> from <div _ngcontent-serverapp-c15=\"\" class=\"signin-page-area open-singin-page\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is not stable\u001b[22m\n\u001b[2m  3 × retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"singin-page\" _ngcontent-serverapp-c14=\"\">…</div> from <div _ngcontent-serverapp-c15=\"\" class=\"signin-page-area open-singin-page\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is not stable\u001b[22m\n\u001b[2m  2 × retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"singin-page\" _ngcontent-serverapp-c14=\"\">…</div> from <div _ngcontent-serverapp-c15=\"\" class=\"signin-page-area open-singin-page\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\n    at EcomHome.checksearch (G:\\Playwright-BDD-HRMS\\features\\pages\\ecom_home.js:26:27)\n    at World.<anonymous> (G:\\Playwright-BDD-HRMS\\features\\steps\\ECOM.steps.js:32:20)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 41808500,
+              "error_message": "TypeError [ERR_INVALID_ARG_VALUE]: The argument 'image/png' is invalid encoding. Received 'encoding'\n    at new NodeError (node:internal/errors:406:5)\n    at assertEncoding (node:internal/fs/utils:161:11)\n    at getOptions (node:internal/fs/utils:337:5)\n    at writeFileSync (node:fs:2278:13)\n    at FileSystemAllureWriter.writeAttachment (file:///G:/Playwright-BDD-HRMS/node_modules/allure-js-commons/dist/esm/src/current/writers/FileSystemAllureWriter.js:19:9)\n    at AllureRuntime.writeAttachment (file:///G:/Playwright-BDD-HRMS/node_modules/allure-js-commons/dist/esm/src/current/AllureRuntime.js:34:21)\n    at World.<anonymous> (file:///G:/Playwright-BDD-HRMS/features/hooks/hooks.js:19:19)\n    at async wrapPromiseWithTimeout (G:\\Playwright-BDD-HRMS\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (G:\\Playwright-BDD-HRMS\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (G:\\Playwright-BDD-HRMS\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ecom-functionality-checked;ordering-products-from-the-website",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Ordering products from the website",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1529302400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I am on the ecom login  page",
+            "match": {
+              "location": "file:\\G:\\Playwright-BDD-HRMS\\features\\steps\\ECOM.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 689099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I log in with valid e com user credentials",
+            "match": {
+              "location": "file:\\G:\\Playwright-BDD-HRMS\\features\\steps\\ECOM.steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7341207999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "Added products to the cart",
+            "match": {
+              "location": "file:\\G:\\Playwright-BDD-HRMS\\features\\steps\\ECOM.steps.js:27"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 30018941499,
+              "error_message": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Eid Collection' })\u001b[22m\n\u001b[2m    - locator resolved to <a class=\"pulse-link\" _ngcontent-serverapp-c16=\"\" href=\"/category/eid-collection-1402\"> Eid Collection </a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div _ngcontent-serverapp-c14=\"\" class=\"col-md-7 border-right mb-3 mb-md-0 p-0\">…</div> from <div _ngcontent-serverapp-c15=\"\" class=\"signin-page-area open-singin-page\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div _ngcontent-serverapp-c14=\"\" class=\"col-md-7 border-right mb-3 mb-md-0 p-0\">…</div> from <div _ngcontent-serverapp-c15=\"\" class=\"signin-page-area open-singin-page\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 100ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is not stable\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 100ms\u001b[22m\n\u001b[2m    4 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div _ngcontent-serverapp-c14=\"\" class=\"col-md-7 border-right mb-3 mb-md-0 p-0\">…</div> from <div _ngcontent-serverapp-c15=\"\" class=\"signin-page-area open-singin-page\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m    12 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <div class=\"singin-page\" _ngcontent-serverapp-c14=\"\">…</div> from <div _ngcontent-serverapp-c15=\"\" class=\"signin-page-area open-singin-page\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <div class=\"singin-page\" _ngcontent-serverapp-c14=\"\">…</div> from <div _ngcontent-serverapp-c15=\"\" class=\"signin-page-area open-singin-page\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <div _ngcontent-serverapp-c14=\"\" class=\"col-md-7 border-right mb-3 mb-md-0 p-0\">…</div> from <div _ngcontent-serverapp-c15=\"\" class=\"signin-page-area open-singin-page\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <div _ngcontent-serverapp-c14=\"\" class=\"col-md-7 border-right mb-3 mb-md-0 p-0\">…</div> from <div _ngcontent-serverapp-c15=\"\" class=\"signin-page-area open-singin-page\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"singin-page\" _ngcontent-serverapp-c14=\"\">…</div> from <div _ngcontent-serverapp-c15=\"\" class=\"signin-page-area open-singin-page\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div _ngcontent-serverapp-c14=\"\" class=\"col-md-7 border-right mb-3 mb-md-0 p-0\">…</div> from <div _ngcontent-serverapp-c15=\"\" class=\"signin-page-area open-singin-page\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\n    at EcomHome.orderItems (G:\\Playwright-BDD-HRMS\\features\\pages\\ecom_home.js:19:25)\n    at World.<anonymous> (G:\\Playwright-BDD-HRMS\\features\\steps\\ECOM.steps.js:28:20)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Submit the order",
+            "match": {
+              "location": "file:\\G:\\Playwright-BDD-HRMS\\features\\steps\\ECOM.steps.js:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 50574799,
+              "error_message": "TypeError [ERR_INVALID_ARG_VALUE]: The argument 'image/png' is invalid encoding. Received 'encoding'\n    at new NodeError (node:internal/errors:406:5)\n    at assertEncoding (node:internal/fs/utils:161:11)\n    at getOptions (node:internal/fs/utils:337:5)\n    at writeFileSync (node:fs:2278:13)\n    at FileSystemAllureWriter.writeAttachment (file:///G:/Playwright-BDD-HRMS/node_modules/allure-js-commons/dist/esm/src/current/writers/FileSystemAllureWriter.js:19:9)\n    at AllureRuntime.writeAttachment (file:///G:/Playwright-BDD-HRMS/node_modules/allure-js-commons/dist/esm/src/current/AllureRuntime.js:34:21)\n    at World.<anonymous> (file:///G:/Playwright-BDD-HRMS/features/hooks/hooks.js:19:19)\n    at async wrapPromiseWithTimeout (G:\\Playwright-BDD-HRMS\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (G:\\Playwright-BDD-HRMS\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (G:\\Playwright-BDD-HRMS\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "ecom-functionality-checked",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Ecom Functionality Checked",
+    "tags": [],
+    "uri": "features\\ECOM.feature"
+  },
+  {
+    "description": "In order to use the application\nAs a valid user\nI want to log in successfully",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;successful-login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Successful login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1548676800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the login page",
+            "match": {
+              "location": "file:\\G:\\Playwright-BDD-HRMS\\features\\steps\\HRMS.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1004369699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I log in with valid credentials",
+            "match": {
+              "location": "file:\\G:\\Playwright-BDD-HRMS\\features\\steps\\HRMS.steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 514143500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see the dashboard",
+            "match": {
+              "location": "file:\\G:\\Playwright-BDD-HRMS\\features\\steps\\HRMS.steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 889896999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 562176400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;successful-login-with-supervisor",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Successful login with Supervisor",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1453508399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I am on the login page",
+            "match": {
+              "location": "file:\\G:\\Playwright-BDD-HRMS\\features\\steps\\HRMS.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 855658599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I log in with Supervisor  credentials",
+            "match": {
+              "location": "file:\\G:\\Playwright-BDD-HRMS\\features\\steps\\HRMS.steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 492545200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I should see the dashboard",
+            "match": {
+              "location": "file:\\G:\\Playwright-BDD-HRMS\\features\\steps\\HRMS.steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 882480500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "View payslip details",
+            "match": {
+              "location": "file:\\G:\\Playwright-BDD-HRMS\\features\\steps\\HRMS.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8298737999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Check noticeboard view",
+            "match": {
+              "location": "file:\\G:\\Playwright-BDD-HRMS\\features\\steps\\HRMS.steps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4162131099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 576774800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [],
+    "uri": "features\\HRMS.feature"
+  }
+]
