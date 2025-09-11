@@ -6,7 +6,7 @@
 [![ExtentReports](https://img.shields.io/badge/ExtentReports-HTML%20Reports-brightgreen)](https://www.extentreports.com/)
 
 > A robust **Web Application Automation** framework using **Playwright**, **BDD**, **POM (Page Object Model)**, and **JavaScript** for automated testing with **ExtentReports** integration for professional HTML reporting.
-
+<img width="646" height="400" alt="image" src="https://github.com/user-attachments/assets/5f5305d0-b842-483d-8e8b-143df16e8677" />
 ---
 
 ## 🚀 Project Features
